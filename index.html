@@ -955,8 +955,11 @@
                                     </div>
                                     <div class="col-lg-7">
                                         <div class="newsletter-form">
-                                            <form action="#">
-                                                <input type="email" placeholder="Enter your email...">
+                                            <form action="https://formsubmit.co/thegoodztech@gmail.com" method="POST">
+                                                <input type="email" name="email" placeholder="Enter your email...">
+                                                <input type="hidden" name="_autoresponse" value="Thanks for subscribing to Goodztech Newsletter.">
+                                                <input type="hidden" name="_template" value="table">
+                                                <input type="hidden" name="_subject" value="Newsletter subscriber!">
                                                 <button class="btn">subscribe</button>
                                             </form>
                                         </div>
@@ -1047,12 +1050,15 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 ml-auto mr-0">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-30">
-                                    <h5>Send Your Massage</h5>
+                                    <h5>Send Your Message</h5>
                                 </div>
                                 <div class="footer-form">
                                     <form action="https://formsubmit.co/thegoodztech@gmail.com" method="POST">
-                                        <input name="email" type="email" placeholder="Your E-mail">
+                                        <input name="email" type="email" placeholder="Your E-mail" required>
                                         <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                                        <input type="hidden" name="_autoresponse" value="Thanks for contacting Goodztech. We will shortly get in touch with you.">
+                                        <input type="hidden" name="_template" value="table">
+                                        <input type="hidden" name="_subject" value="Viewer message!">
                                         <button class="btn">Submit</button>
                                     </form>
                                 </div>
